@@ -30,6 +30,9 @@ import {
   ResponsiveContainer,
 } from 'recharts'
 import { AreaChartProps } from './AreaChart.types'
+import { useChartColors } from '../../../hooks/useChartColors'
+import { useChartFocusStyle, withChartRootClass } from '../../../hooks/useChartFocusStyle'
+import { getLegendWrapperStyle, hasComposedAxis, hasComposedChild } from '../../../utils/chartUtils'
 
 /**
  * AreaChart component for Oxygen UI powered by Recharts.
