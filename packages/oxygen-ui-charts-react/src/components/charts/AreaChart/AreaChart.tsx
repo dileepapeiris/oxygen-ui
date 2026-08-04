@@ -17,7 +17,7 @@
  */
 
 import React from 'react'
-import { useColorScheme, useTheme } from '@wso2/oxygen-ui'
+import { useTheme } from '@wso2/oxygen-ui'
 
 import {
   AreaChart as RechartsAreaChart,
